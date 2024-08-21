@@ -1,0 +1,117 @@
+.container-two{
+    .wrapper-body{
+        .body-one{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 25px;
+            .one-left{
+                .main-title{
+                    padding-top: 80px;
+                    .name{
+                        font-size: 12px;
+                        color: grey;
+                    }
+                    .main-content{
+                        font-weight: bold;
+                        font-size: 25px;
+                        li{
+                            a{
+                                color: black;
+                            }
+                        }
+                    }
+                }
+                .content-title{
+                    display: flex;
+                    .left-content{
+                        .subtitle-one{
+                            font-weight: bold;
+                            font-size: 12px;
+                        }
+                        .mini-title-one{
+                            font-size: 12px;
+                        }
+                    }
+                    .right-content{
+                        .subtitle-two{
+                            font-weight: bold;
+                            font-size: 12px;
+                        }
+                        .mini-title-two{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .one-mid{
+                .content{
+                    display: flex;
+                    .content-one{
+                        transform: rotate(-90deg);
+                        font-weight: bold;
+                    }
+                    .content-two{
+                        transform: rotate(-90deg);
+                    }
+                }
+            }
+        }
+        .body-two{
+
+        }
+         .body-three{
+            .main-title{
+                display: block;
+                text-align: center;
+                color: gold;
+            }
+            .subtitle{
+                display: block;
+                text-align: center;
+            }
+            .content{
+                display: block;
+                text-align: center;
+            }
+            
+        }
+        .body-five{
+            .features{
+                display: block;
+                text-align: end;
+                .main-features{
+                    color: gold;
+                }
+                .title{
+                    font-weight: bold;
+                }
+                .subtitle{
+                    color: grey;
+                    font-size: 12px;
+                }
+            }
+        }
+        .body-six{
+            .scroll-ads{
+                .title{
+                    color: gold;
+                }
+                .subtitle{
+                    font-weight: bold;
+                }
+                .info{
+                    color: grey;
+                    font-size: 12px;
+                }
+                .view{
+                    text-align: end;
+                    color: skyblue;
+                    cursor: pointer;
+                    text-decoration: underline;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

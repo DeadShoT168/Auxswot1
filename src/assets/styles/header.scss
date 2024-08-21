@@ -1,0 +1,28 @@
+.container-one{
+    .wrapper-header{
+        .header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logo{
+                padding-left: 80px;
+            }
+            .menu{
+                .menu-lists{
+                    display: flex;
+                    align-items: center;
+                    li{
+                        padding: 0 5px;
+                        a{
+                            color: black;
+                        }
+                    }
+                }
+                
+            }
+            .signup{
+                padding-right: 60px;
+            }
+        }
+    }
+}
