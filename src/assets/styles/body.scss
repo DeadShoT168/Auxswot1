@@ -56,6 +56,12 @@
                     }
                 }
             }
+            .one-right{
+                .photo{
+
+                }
+                
+            }
         }
         .body-two{
 
@@ -68,11 +74,21 @@
             }
             .subtitle{
                 display: block;
+                font-weight: bold;
                 text-align: center;
+                font-size: large;
             }
-            .content{
+            .content1{
                 display: block;
                 text-align: center;
+                color: gray;
+                font-size: small;
+            }
+            .content2{
+                display: block;
+                text-align: center;
+                color: gray;
+                font-size: small;
             }
             
         }
@@ -83,12 +99,23 @@
                 .main-features{
                     color: gold;
                 }
-                .title{
+                .title1{
+                    font-weight: bold;
+                }
+                .title2{
                     font-weight: bold;
                 }
                 .subtitle{
                     color: grey;
                     font-size: 12px;
+                }
+                .lists{
+                    .title{
+                        font-weight: bold;
+                    }
+                    .subtitle{
+                        color: gray;
+                    }
                 }
             }
         }
@@ -100,7 +127,11 @@
                 .subtitle{
                     font-weight: bold;
                 }
-                .info{
+                .info1{
+                    color: grey;
+                    font-size: 12px;
+                }
+                .info2{
                     color: grey;
                     font-size: 12px;
                 }
