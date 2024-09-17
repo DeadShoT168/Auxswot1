@@ -58,7 +58,10 @@
             }
             .one-right{
                 .photo{
-
+                    img{
+                        width: auto;
+                        height: 100%;
+                    }
                 }
                 
             }
@@ -93,6 +96,12 @@
             
         }
         .body-five{
+            .photo{
+                img{
+                    width: auto;
+                    height: 100%;
+                }
+            }
             .features{
                 display: block;
                 text-align: end;
@@ -142,6 +151,21 @@
                     text-decoration: underline;
                     font-size: 12px;
                 }
+            }
+        }
+        .body-seven{
+            .title{
+                color: gold;
+                text-align: center;
+            }
+            .subtitle{
+                font-weight: bold;
+                text-align: center;
+            }
+            .review-content{
+                color: gray;
+                font-size: 12px;
+                text-align: center;
             }
         }
     }
